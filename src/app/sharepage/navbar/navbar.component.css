@@ -1,0 +1,12 @@
+.navbar-light .navbar-nav .nav-link.active-link{
+    font-weight: bold;
+}
+
+.nav-link.active-link :hover {
+    color:rgb(178, 255, 102);
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:rgb(178, 255, 102);
+    font-weight: bold;
+}

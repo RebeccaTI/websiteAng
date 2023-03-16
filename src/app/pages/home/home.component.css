@@ -1,0 +1,39 @@
+
+.banner {
+    background-image: url('../../../assets/img/wallpaper.jpg');
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    top: 18%;
+    left: 20%;
+    position: absolute;
+    
+}
+.content h1 {
+    color: rgb(0,0,0);
+    font-weight: bold;
+    position: relative;
+    right: 140px;
+   font-style: italic;
+}
+
+.content a {
+ 
+    text-decoration: none;
+    background-color: rgb(0,0,0);
+    color: rgb(255, 247, 247);
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    position: relative;
+    right: 140px;
+    top: 20px;
+    font-style: italic;
+}
+
+.content a:hover {
+    background-color: rgb(178, 255, 102);
+}

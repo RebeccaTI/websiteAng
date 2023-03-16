@@ -1,0 +1,13 @@
+<div class="banner">
+    <div class="container mt-4 mb-4">
+        <h1 class="text-center">Serviços para sua empresa</h1>
+        <div class="serviceBox">
+            <div class="col-lg-5" *ngFor="let item of developmentData">
+                <img src="{{item.serviceImg}}" />
+                <h1>{{item.serviceName}}</h1>
+                <p>{{item.serviceDetails}}</p>
+                <p><b>Valor do investimento:{{item.servicePrice | currency: 'BRL'}}</b></p> 
+            </div>
+        </div>
+    </div>
+</div>
